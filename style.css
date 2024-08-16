@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: rgb(220, 237, 250);
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.review {
+    background: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 350px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+#person-img {
+    border-radius: 200px;
+    margin-top: 30px;
+}
+
+#author {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#info {
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(112, 103, 103);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#job {
+    margin-top: -15px;
+    font-size: 15px;
+    color: lightseagreen;
+}
+
+.prev-btn {
+    padding: -5px;
+    border: 1px solid white;
+    background: white;
+}
+
+.next-btn {
+    padding: -5px;
+    border: 1px solid white;
+    background: white;
+}
