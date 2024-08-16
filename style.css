@@ -58,3 +58,10 @@ body {
     border: 1px solid white;
     background: white;
 }
+
+.random-btn {
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    padding: 5px;
+}
