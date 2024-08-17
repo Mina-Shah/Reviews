@@ -4,25 +4,30 @@ const reviews = [
         id: 1,
         name: 'Susan Smith',
         job: 'Web Designer',
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus soluta cupiditate ipsa, repudiandae facere eaqu molestiae suscipit officiis tempora assumenda"
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus soluta cupiditate ipsa, repudiandae facere eaqu molestiae suscipit officiis tempora assumenda",
+        img : 'https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1614918725861-FCQ8H3QLPMBJBMRBKHJ2/Smilingarmfoldedheadshot.jpg?format=750w',
     },
     {
         id: 2,
         name: 'Sara Dane',
         job: 'Software Engineer',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta cupiditate ipsa, repudiandae facere eaque molestiae suscipit officiis tempora assumenda'
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta cupiditate ipsa, repudiandae facere eaque molestiae suscipit officiis tempora assumenda',
+        img: 'https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1614918528805-4BMFEWNUBTAI3340LE2L/NAB+Fun-4.jpg?format=300w'
+
     },
     {
         id: 3,
         name: 'John Doe',
         job: 'Web Developer',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta cupiditate ipsa, repudiandae facere eaque molestiae suscipit officiis tempora assumenda'
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta cupiditate ipsa, repudiandae facere eaque molestiae suscipit officiis tempora assumenda',
+        img: 'https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1614918881830-ZKRPVVI95QIFERFO72UL/Dae-3.jpg?format=750w'
     },
     {
         id: 4,
         name: 'Henry Joe',
         job: 'Web Developer',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta cupiditate ipsa, repudiandae facere eaque molestiae suscipit officiis tempora assumenda'
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta cupiditate ipsa, repudiandae facere eaque molestiae suscipit officiis tempora assumenda',
+        img: 'https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1614918808292-YGT6VQPEAF6EO8I4MVVF/Majintha-4.jpg?format=750w'
     },
 ]
 // select items
@@ -51,6 +56,7 @@ function showPerson() {
     author.textContent = item.name;
     job.textContent = item.job;
     info.textContent = item.text;
+    img.src = item.img
 }
 
 // show text person
