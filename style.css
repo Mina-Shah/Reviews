@@ -18,15 +18,17 @@ body {
     text-align: center;
     align-items: center;
     max-width: 350px;
-    height: 400px;
+    height: 330px;
     margin-left: 500px;
     margin-top: 20px;
     border-radius: 12px;
 }
 
 #person-img {
-    border-radius: 200px;
+    border-radius: 80px;
+    border: 1px;
     margin-top: 30px;
+    width: 80px;
 }
 
 #author {
